@@ -1,0 +1,36 @@
+# CodeIgniter
+application/cache/*
+application/logs/*
+!application/cache/index.html
+!application/logs/index.html
+
+# Config dosyaları (hassas bilgiler içerebilir)
+application/config/database.php
+application/config/config.php
+
+# Test dosyaları
+test_*.php
+admin_olustur.php
+admin_olustur_sql.sql
+acil_admin.sql
+guncelleme.sql
+Sorgu.sql
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# SQL dosyaları (hassas veriler içerebilir)
+*.sql
+
+# Geçici dosyalar
+*.tmp
+*.log
+*.cache
